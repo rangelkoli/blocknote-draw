@@ -1,0 +1,36 @@
+{
+  "name": "blocknote-draw",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@blocknote/react": "^0.17.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "rollup": "^4.24.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tldraw": "^3.4.0",
+    "tslib": "^2.8.0",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/lodash.throttle": "^4.1.9",
+    "@types/lodash.uniq": "^4.5.9",
+    "@types/react": "^18.3.12",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
