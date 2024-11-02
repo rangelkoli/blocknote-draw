@@ -1,3 +1,1 @@
-import { Draw } from "./components/Draw";
-
-export default Draw;
+export { Draw, insertDraw } from "./components/Draw";

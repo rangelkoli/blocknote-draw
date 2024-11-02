@@ -7,6 +7,7 @@ import typescript from '@rollup/plugin-typescript';
 import dts from "rollup-plugin-dts";
 import json from '@rollup/plugin-json';
 import postcss from 'rollup-plugin-postcss';
+
 export default [
     {
         input: 'src/index.ts',
